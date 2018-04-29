@@ -1,0 +1,6 @@
+script:
+- gnatmake hello.adb
+- /usr/bin/time ./hello
+
+after_script:
+- du -sch *
