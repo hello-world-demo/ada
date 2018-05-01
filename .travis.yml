@@ -1,3 +1,5 @@
+language: ada
+
 script:
 - gnatmake hello.adb
 - /usr/bin/time ./hello
