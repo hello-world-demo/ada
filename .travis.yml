@@ -1,5 +1,12 @@
 language: ada
 
+# addons:
+apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-7
+
 script:
 - gnatmake hello.adb
 - /usr/bin/time ./hello
