@@ -1,11 +1,11 @@
 language: ada
 
-# addons:
-apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - g++-7
+addons:
+    apt:
+        sources:
+        - ubuntu-toolchain-r-test
+        packages:
+        - gnat-7
 
 script:
 - gnatmake hello.adb
