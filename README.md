@@ -1,5 +1,7 @@
 # ada
 
+[![Build Status](https://travis-ci.org/hello-world-demo/ada.svg?branch=master)](https://travis-ci.org/hello-world-demo/ada)
+
 # Gnat
 ## Documentation
 * [*GCC, the GNU Compiler Collection*](GCC, the GNU Compiler Collection)
