@@ -14,6 +14,3 @@ script:
 after_script:
 - du -sch *
 - ldd hello
-- ./hello & cat /proc/$!/status # Better wait end of execution (open file, wait for end, read file)
-- ./hello & cat /proc/$!/io # idem
-- ./hello & ls /proc/$!
