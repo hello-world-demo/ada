@@ -9,7 +9,7 @@ addons:
 
 script:
 - gnatmake hello.adb
-- /usr/bin/time ./hello
+- /usr/bin/time --format '%M %S %U %I %O' ./hello
 
 after_script:
 - du -sch *
