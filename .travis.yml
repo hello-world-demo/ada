@@ -10,6 +10,9 @@ addons:
 script:
 - gnatmake hello.adb
 - /usr/bin/time --format '%M %S %U %I %O' ./hello
+- sync && sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches'
+- /usr/bin/time --format '%M %S %U %I %O' ./hello
+- /usr/bin/time --format '%M %S %U %I %O' ./hello
 
 after_script:
 - du -sch *
